@@ -80,7 +80,7 @@ let g:NERDTreeWinPos = "left"
 let NERDTreeShowHidden=0
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
-map <c-o> :NERDTreeToggle<cr>
+map <c-p> :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 
 
@@ -132,7 +132,7 @@ let g:lightline = {
 let g:goyo_width=100
 let g:goyo_margin_top = 2
 let g:goyo_margin_bottom = 2
-nnoremap <silent> <leader>z :Goyo<cr>
+nnoremap <silent> <leader>z :tabnew %<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -174,4 +174,3 @@ nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
-nnoremap <silent> <leader>d :GitGutterToggle<cr>
