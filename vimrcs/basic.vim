@@ -375,7 +375,9 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
-:set ts=4
+set ts=4
+set expandtab
+set autoindent
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
@@ -384,3 +386,7 @@ inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 inoremap ' ''<LEFT>
+set cursorline  "突出显示当前行
+set tabstop=4    "设置table长度"
+set shiftwidth=4        "同上
+set backspace=2
