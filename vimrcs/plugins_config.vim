@@ -31,13 +31,6 @@ map <leader>f :MRU<CR>
 
 
 """"""""""""""""""""""""""""""
-" => YankStack
-""""""""""""""""""""""""""""""
-nmap <c-p> <Plug>yankstack_substitute_older_paste
-nmap <c-P> <Plug>yankstack_substitute_newer_paste
-
-
-""""""""""""""""""""""""""""""
 " => CTRL-P
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
@@ -78,7 +71,7 @@ let g:NERDTreeWinPos = "left"
 let NERDTreeShowHidden=0
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
-map <c-p> :NERDTreeToggle<cr>
+map <c-t> :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 
 

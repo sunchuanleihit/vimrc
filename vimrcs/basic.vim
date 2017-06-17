@@ -390,3 +390,4 @@ set cursorline  "突出显示当前行
 set tabstop=4    "设置table长度"
 set shiftwidth=4        "同上
 set backspace=2
+au BufNewFile,BufRead *.py set tabstop=4 softtabstop=4 shiftwidth=4 expandtab autoindent fileformat=unix
